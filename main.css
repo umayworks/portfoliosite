@@ -122,7 +122,7 @@ body{
 
 /* aboutla ilgili */
     #solfoto {
-        width: 45vw;
+        width: 44vw;
         float: left;
         position: fixed;
         bottom: 0;
@@ -131,7 +131,7 @@ body{
     .gridcontainer{
         position: fixed;
         right: 0;
-        margin-right: 9vw;
+        margin-right: 8vw;
         margin-top: 3vw;
         display: grid;
         float: right;
@@ -140,14 +140,14 @@ body{
     }
 
     .cv{
-        font-size: 15px ;
+        font-size: 0.8vw ;
         font-family: JostRegular;
         color: #ffffff;   
-        margin: 10px;
+        margin: 8px;
         list-style-type: none;
     }
     .header{
-      font-size: 20px ;
+      font-size: 1vw ;
       font-family: JostBold;
       color: #e69293;
     }
