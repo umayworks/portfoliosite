@@ -42,21 +42,18 @@ body{
     #logo {
         margin-top: 10px; 
         margin-bottom: 10px;
-        margin-left: 5% ;
-        margin-right: 60px;
+        margin-left: 1% ;
         width:3vw ;
-        min-width: 30px;
-      
+        min-width: 50px;
         z-index: 5;
     }
     button {
         
         margin-top: 20px; 
-        margin: 10px;
+        margin: 3px;
         min-height: 50px;
         text-align: center;
-        font-size: 1.3vw;
-        min-width: 2z0px;
+        font-size:calc(10px + 0.6vw);
         font-family: JostBold;
         background-color: transparent;
         color: #ffffff;   
@@ -79,7 +76,6 @@ body{
     }
 
     a:hover {
-        font-size: 1.1em;
         color: rgb(219, 81, 81);
         
     }
@@ -95,14 +91,14 @@ body{
         color: #ffffff;   
         background-image: url(products.png);
         background-size: cover;
-        background-position: center;
+        background-position: bottom;
         height: 100vh
 
     }
     #buyukyazi {
         align-self: center ;
         margin-top:1em ;
-        font-size: 7vw ;
+        font-size:calc(60px + 3vw);
         font-family: kattyPurry;
         line-height: 0.9em ;
 
@@ -110,15 +106,27 @@ body{
 
     #kucukyazi {
         margin-top:0px ;
-        font-size: 1.5vw ;
+        font-size:calc(14px + 0.6vw);
         font-family: JostRegular;
+      
     }
 
     #cv {
       display: inline;
     }
 
-
+  .contact{
+  float: right;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  align-items: center;
+  margin: 1vw;
+    }
+.logo{
+  margin: 5px;
+  max-width: 50px;
+}
 
 /* aboutla ilgili */
     #solfoto {
@@ -276,6 +284,11 @@ body{
   color: #322f2f; 
 }
 
+.formcontainer{  
+  background-image: url(products.png);
+  background-repeat: no-repeat;
+  background-position:bottom;
+}
 
 /* şekilli yazı şeyleri */
 /* .container{
