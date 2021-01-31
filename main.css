@@ -135,7 +135,7 @@ body{
         float: left;
         position: fixed;
         bottom: 0;
-        z-index: -4;
+        z-index: 2;
       
     }
     .gridcontainer{
@@ -203,46 +203,63 @@ body{
   float: inline-end;
   bottom: 0;
   z-index: -3;
-  margin-top: 1vw;
-  
+  margin-top: 1vw; 
 }
 .projectdetailleft{
-  width: 60%;
+  width: 45%;
+  z-index: 3;
+}
+.projectdetailleft2{
+  width: 100%;
   z-index: 3;
 }
 .sagyazilar{
   float: right;
-  margin-top:10vw ;
-  margin-right: 3vw;
+  margin-top:0 ;
+  margin-right: 10%;
   font-size: 18px;
   font-family: JostRegular;
-}
-
-#projectheader1{
-  margin-right: 15vw;
-  font-size: 10vw ;
-  font-family: kattyPurry;
-  color: #e65a4c; 
 }
 .solyazilar{
   float: left;
   text-align: right;
   margin-top:10vw ;
-  margin-left: 12vw;
+  margin-left: 10%;
   font-size: 18px ;
   font-family: JostRegular;
 }
+.solcontent{
+  text-align: left;
+  }
 
+#projectheader1{
+    margin-top:10vw;
+    line-height: 0.9em;
+    margin-right: 15vw;
+    font-size: 10vw ;
+    font-family: kattyPurry;
+    color: #e65a4c; 
+  }
  #projectheader12{
-    font-size: 2.4vw ;
+    font-size: 2.3vw ;
     font-family: kattyPurry;
     color: #8f8eb5; 
+  }
+#projectheader13{
+  text-align: left;
+  margin-top: 13vw;
+  font-size: 2.9vw ;
+  font-family: kattyPurry;
+  color: #e65a4c; 
 }
+
 .projectdetailright{
   float: right;
-  width: 60%;
+  width: 45%;
 }
 #projectheader2{
+  margin-top:10vw;
+  line-height: 0.9em;
   font-size: 10vw ;
   margin-right: 15vw;
   font-family: kattyPurry;
@@ -254,6 +271,8 @@ body{
   color: #5c5c5c; 
 }
 #projectheader3{
+  margin-top:10vw;
+  line-height: 0.9em;
   font-size: 8vw ;
   font-family: kattyPurry;
   color: #32368e; 
@@ -264,6 +283,8 @@ body{
   color: #8f8eb5; 
 }
 #projectheader4{
+  margin-top:10vw;
+  line-height: 0.9em;
   margin-right: 8vw;
   font-size: 8vw ;
   font-family: kattyPurry;
@@ -275,9 +296,11 @@ body{
   color: #156775; 
 }
 #projectheader5{
+  margin-top:5vw;
+  line-height: 0.9em;
   margin-right: 2vw;
   margin-top: 5vw;
-  font-size: 7vw ;
+  font-size: 6vw ;
   font-family: kattyPurry;
   color: #4dac48; 
 }
