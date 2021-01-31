@@ -98,7 +98,7 @@ body{
     #buyukyazi {
         align-self: center ;
         margin-top:1em ;
-        font-size:120px;
+        font-size:calc(60px + 6vh);
         font-family: kattyPurry;
         line-height: 0.9em ;
 
