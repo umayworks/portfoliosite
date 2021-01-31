@@ -213,7 +213,7 @@ body{
   float: right;
   margin-top:10vw ;
   margin-right: 3vw;
-  font-size: calc(8px + 1.5vh);
+  font-size: calc(15px + 1vh);
   font-family: JostRegular;
 }
 
@@ -228,7 +228,7 @@ body{
   text-align: right;
   margin-top:10vw ;
   margin-left: 12vw;
-  font-size: calc(8px + 1.5vh) ;
+  font-size: calc(15px + 1vh) ;
   font-family: JostRegular;
 }
 
