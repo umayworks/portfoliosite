@@ -176,7 +176,8 @@ body{
       text-align: center;
       font-family: JostBold;
       list-style-type: none;
-      font-size: 1.4vw ;
+      font-size: calc(14px + 1vh) ;
+      align-items: center;
     }
     .current{
       width: 20%;
@@ -212,7 +213,7 @@ body{
   float: right;
   margin-top:10vw ;
   margin-right: 3vw;
-  font-size: 1.5vw ;
+  font-size: calc(14px + 1vh);
   font-family: JostRegular;
 }
 
@@ -227,7 +228,7 @@ body{
   text-align: right;
   margin-top:10vw ;
   margin-left: 12vw;
-  font-size: 1.5vw ;
+  font-size: calc(14px + 1vh) ;
   font-family: JostRegular;
 }
 
