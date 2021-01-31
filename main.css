@@ -135,6 +135,7 @@ body{
         float: left;
         position: fixed;
         bottom: 0;
+        z-index: -4;
       
     }
     .gridcontainer{
@@ -213,7 +214,7 @@ body{
   float: right;
   margin-top:10vw ;
   margin-right: 3vw;
-  font-size: calc(15px + 1vh);
+  font-size: 18px;
   font-family: JostRegular;
 }
 
@@ -228,7 +229,7 @@ body{
   text-align: right;
   margin-top:10vw ;
   margin-left: 12vw;
-  font-size: calc(15px + 1vh) ;
+  font-size: 18px ;
   font-family: JostRegular;
 }
 
