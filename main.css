@@ -149,19 +149,19 @@ body{
     }
 
     .cv{
-        font-size: 0.8vw ;
+        font-size: calc(6px + 1vh) ;
         font-family: JostRegular;
         color: #ffffff;   
         margin: 8px;
         list-style-type: none;
     }
     .header{
-      font-size: 1vw ;
+      font-size: calc(12px + 1vh );
       font-family: JostBold;
       color: #e69293;
     }
     #intro{
-      font-size: 4vw ;
+      font-size: calc(24px + 3vh ) ;
       font-family: kattyPurry;
       grid-column: span 2 ;
       color: #ffffff;   
@@ -213,7 +213,7 @@ body{
   float: right;
   margin-top:10vw ;
   margin-right: 3vw;
-  font-size: calc(14px + 1vh);
+  font-size: calc(8px + 1.5vh);
   font-family: JostRegular;
 }
 
@@ -228,7 +228,7 @@ body{
   text-align: right;
   margin-top:10vw ;
   margin-left: 12vw;
-  font-size: calc(14px + 1vh) ;
+  font-size: calc(8px + 1.5vh) ;
   font-family: JostRegular;
 }
 
