@@ -200,7 +200,7 @@ body{
   background-repeat: no-repeat;
   height: 150vw;
   width: 100vw;
-  float: inline-end;
+  float: inline;
   bottom: 0;
   z-index: -3;
   margin-top: 1vw; 
@@ -212,6 +212,11 @@ body{
 .projectdetailleft2{
   width: 100%;
   z-index: 3;
+}
+.projectdetailright{
+  float: right;
+  width: 45%;
+  display: inline;
 }
 .sagyazilar{
   float: right;
@@ -231,7 +236,6 @@ body{
 .solcontent{
   text-align: left;
   }
-
 #projectheader1{
     margin-top:10vw;
     line-height: 0.9em;
@@ -253,10 +257,6 @@ body{
   color: #e65a4c; 
 }
 
-.projectdetailright{
-  float: right;
-  width: 45%;
-}
 #projectheader2{
   margin-top:10vw;
   line-height: 0.9em;
