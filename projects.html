@@ -4,19 +4,16 @@
     <meta charset="UTF-8">
     <link rel="icon" href="logo.png" type="image/icon">
     <link rel="stylesheet" href="main.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script>
-        $(document).ready(function() {
-            $(".tab-menu a").click(function(event) {
-                event.preventDefault();
-                $(this).parent().addClass("current");
-                $(this).parent().siblings().removeClass("current");
-                var tab = $(this).attr("href");
-                $(".tab-content").not(tab).css("display", "none");
-                $(tab).fadeIn();
-            });
-        });
-    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-81TWVK4QX5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-81TWVK4QX5');
+</script>
+    
 </head>
 <body>
     <div class="anaSayfa">
@@ -53,32 +50,19 @@
                 <div id="tab1" class="tab-content" style="display: none;">
                 
                     <img class="projectdetailleft" src="flide1.png"> 
+                    
                     <div class="sagyazilar">
                         <p id="projectheader1">Flide</p>
                         <p>  A D.I.Y ice sled <br> made of folded polypropylene sheets. <br> Inspired by children  <br> who use plastic bags as sleds.</p>
                     </div>
-                
-        
+                     
                     <div class="solyazilar">
                         <p id="projectheader12">Easy, economic and fun!</p>
                         <p> 2nd year studio
-                        <br> 2019</p> 
-                        <p class="solcontent" id="projectheader13">Process</p>
-                        <p class="solcontent" id="projectheader12">Sketches and mock ups</p>
-                        <p class="solcontent">After my mock ups and sketches<br>
-                            I’ve decided on a folded sled according to <br>
-                            its benefits:<br>
-                            it can be stored easily, production costs are low <br>
-                            and it is accesible</p>
-                        
+                        <br> 2019</p>
                     </div>
+                   
                     <img class="projectdetailright" src="flide2.png"> 
-                
-                    <div class="solprocess">
-                        
-                        <img class="projectdetailleft2" src="sled drawings.PNG"> 
-                        
-                    </div>
                 </div>
                 </div>
                 <div id="tab2" class="tab-content" style="display: none;">
@@ -129,4 +113,19 @@
        
        
 </div>
+<footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".tab-menu a").click(function(event) {
+                event.preventDefault();
+                $(this).parent().addClass("current");
+                $(this).parent().siblings().removeClass("current");
+                var tab = $(this).attr("href");
+                $(".tab-content").not(tab).css("display", "none");
+                $(tab).fadeIn();
+            });
+        });
+    </script>
+</footer>
 </html>
